@@ -1,0 +1,109 @@
+body{
+    background-image: url(img/bg.png);
+    background-repeat: repeat-x;
+    font-family: "Trebuchet MS, Arial"
+
+    
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "header header"
+    "nav article"
+    "footer footer";
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    background-color: white;
+    
+}
+
+header{
+    grid-area: header;
+    background-image: url(img/logo1.jpg);
+
+
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+nav{
+    grid-area: nav;
+    
+    height: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: green;
+    font-size: 12pt;
+}
+
+nav ul{
+    background-color: #96A96F;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav h5{
+    background-color: darkgreen;
+    padding: 5px;
+    color: white;
+}
+
+article{
+    grid-area: article;
+    margin-left: 10px;
+}
+
+article p{
+    text-align: justify;
+}
+
+article h3{
+    font-weight: bold;
+}
+
+
+footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: rgb(9, 83, 9);
+    color: white;
+}
+
+#menu{
+    text-align: center;
+    background-image: url(img/img02.gif);
+    background-repeat: no-repeat;
+    
+    
+}
+
+#letolt{
+    text-align: center;
+    background-image: url(img/img02.gif);
+    background-repeat: no-repeat;
+
+}
+
+#linkek{
+    text-align: center;
+    background-image: url(img/img02.gif);
+    background-repeat: no-repeat;;
+    background-attachment: fixed;
+    background-position: right bottom; 
+
+    
+}
+
+
+
